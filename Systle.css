@@ -1,0 +1,72 @@
+body{
+  padding-top:100px;
+  background-color:#9f9eb8;
+border-radius: 800px;
+}
+.container{
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 60px;
+
+}
+.navbar{
+  background: black;
+}
+. btn btn-outline-success{
+  background-color: black;
+}
+ .navbar img{
+ width: 350px;
+ height: 250px;
+
+}
+
+.footer{
+    text-align: center;
+    background:#222;
+}
+
+.footer .share{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+}
+
+.footer .share a{
+    font-size: 2rem;
+    color:#ccc;
+    padding:2rem;
+}
+
+.footer .share a:hover{
+    color:#eee;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.footer .credit{
+    padding:2rem 1rem;
+    font-size: 3rem;
+    color:#fff;
+    background:#111;
+}
+
+.footer .credit a{
+    color:var(--red);
+}
+
+.scroll-top{
+    position: fixed;
+    bottom:7.5rem; right:2rem;
+    z-index: 1000;
+    display: none;
+}
+
+.scroll-top img{
+    height:7rem;
+    filter:drop-shadow(0 .3rem .5rem rgba(0,0,0,.2));
+}
